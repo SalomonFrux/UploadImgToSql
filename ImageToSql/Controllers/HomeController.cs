@@ -28,9 +28,9 @@ namespace UploadToSql.Controllers
         }
 
         public IActionResult Index()
-        {
-            return View(_context.UserForms.ToList());
-        }
+        //{
+         //   return View(_context.UserForms.ToList());
+       // }
 
         public IActionResult Create()
         {
