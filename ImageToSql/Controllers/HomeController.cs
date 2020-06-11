@@ -2,8 +2,8 @@
 
 
 using ImageToSql.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+//using Microsoft.AspNetCore.Mvc;
+//using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
