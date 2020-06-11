@@ -74,9 +74,9 @@ namespace UploadToSql.Controllers
                 streamOfBytes = memoryStream.ToArray();
 
                 //Add the user object in the database and save
-                UserForm.Image = streamOfBytes;
-                _context.UserForms.Add(UserForm);
-                _context.SaveChanges();
+               // UserForm.Image = streamOfBytes;
+               // _context.UserForms.Add(UserForm);
+               // _context.SaveChanges();
             }
 
 
